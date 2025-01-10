@@ -47,7 +47,7 @@ I Proceeded through the installation using all of the default options. Any promp
 
 Click Finish and launch VirtualBox.
 
-Creating a Virtual Machine
+<h2>Creating a Virtual Machine</h2>
 Now that we know what type of virtual network we want to use it's time to create a VM (Virtual Machine). We can do this by clicking the New button within the VirtualBox Manager.
 
 This will launch the new VM window. Go ahead and click the Expert Mode button. Don't worry - it doesn't make the process more difficult it only allows you to create a VM while navigating through less pages.
@@ -64,7 +64,7 @@ Pro tip: Storing the VM's hard disk file on an SSD will also significantly incre
 
 And that is all we need to do to create the VM. Of course we can't start the VM yet because we haven't downloaded or attached an operating system ISO... But we will cover that in the next section.
 
-Creating a Virtual Network with VirtualBox
+<h2>Creating a Virtual Network with VirtualBox</h2>
 Virtual Networks allow you to connect your VMs to whatever you want. There are several different types of networks you can create with VirtualBox and the one you chose will depend on your requirements.
  
 Keep in mind that you won't be able to access all of these network types if you haven't created a VM because some of them are configured from within the VM settings.
@@ -114,7 +114,7 @@ Configure the Networking tab for your chosen network type. Again, the easiest so
 
 
 
-Downloading Your operating systems ISO(s)
+<h2>Downloading Your operating systems ISO(s)</h2>
 Next we need an operating system (OS) to install on our Virtual Machines. You could do this with a physical disc if you wanted, but most of the time you will want to download an ISO for OS installations.
  
 The easiest way to find what you're looking for is to simply google the name of your operating system with "ISO download" in the search.  For example if you want Windows Server 2016, just search 
@@ -129,7 +129,7 @@ Centos 7
 Ubuntu
 Kali Linux
 
-Installing an OS on Your Lab VMs
+<h2>Installing an OS on Your Lab VMs</h2>
 Once you have downloaded your ISO file, it's time to mount it to your VM in VirtualBox. Mounting a VM is essentially like virtually inserting a disc into a DVD drive of a computer.
  
 Right click on your VM and select settings then open the Storage tab. From there click the Empty disc icon, then again the disc icon under Attributes on the right hand side of the window. Click the Choose Virtual Optical Disk File... and browse to and open your desired ISO.
