@@ -49,22 +49,34 @@ I Proceeded through the installation using all of the default options. Any promp
 
 Click Finish and launch VirtualBox.
 
-<img src="">
+<img src="Folder/VirtualBox-Dashboard.jpg">
 
 <h2>Creating a Virtual Machine</h2>
 Now that we know what type of virtual network we want to use it's time to create a VM (Virtual Machine). We can do this by clicking the New button within the VirtualBox Manager.
 
+<img src="New">
+
 This will launch the new VM window. Go ahead and click the Expert Mode button. Don't worry - it doesn't make the process more difficult it only allows you to create a VM while navigating through less pages.
+
+<img src="New-VM">
 
 I am going to specify a name of "MyVM" and 2048 MB (2gb) of RAM then I will click Create.
 
+<img src="New-Vm2">
+
 This will open another window for creating the Virtual Hard Disk. The default options here are all fine except for the File Size. I am going to set my new HDD to 60GB and then choose Create.
+
+<img src="New-VM-HDD">
 
 Since this HDD is going to be dynamically allocated (option on the middle-right of the screenshot below), the HDD file will only be as large as the amount of data stored on it - and a maximum of 60GB
 Now you will see MyVM listed on the VirtualBox dashboard. Before we start the VM we can modify the settings of the VM if we want. Generally you might want to assign more processors, change the networking adapters and mount an ISO.
 
+<img src="VM-Settings">
+
 Increasing the processor CPUs can greatly improve the performance of your VM, so if at all possible increase the number of CPUs to 2.
 Pro tip: Storing the VM's hard disk file on an SSD will also significantly increase the VMs performance.
+
+<img src="CPUs">
 
 And that is all we need to do to create the VM. Of course we can't start the VM yet because we haven't downloaded or attached an operating system ISO... But we will cover that in the next section.
 
@@ -75,28 +87,32 @@ Keep in mind that you won't be able to access all of these network types if you 
  
 Here is an overview of the different network types you could create:
 
+<img src="VirtualBox-VM-Adapter-Types">
 
-NAT
+
+<h3>NAT</h3>
 This network type allows your VMs to use the internet connectivity of the host computer. You will have no connectivity to other VMs or the host computer. Use this type if your lab will only have one VM.
  
 Using NAT is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)
 
-NAT Network
+<h3>NAT Network</h3>
 This network is the same as NAT, but it allows your VMs to communicate to other VMs that are attached to the same NAT network. Use this when your labs use multiple VMs and need internet connectivity.
  
 You can create a NAT Network by clicking on File > Preferences. Select the Network tab and then click the plus button to create a new NAT Network.
 
+<img src="NAT-Network">
 
-Bridged Adapter
+
+<h3>Bridged Adapter</h3>
 Using this network type will cause your router to treat your VM as a physical computer. This means your VM will be connected to the same network as your host computer. Use this lab when you need to access your VMs from your host network.
 
 Using a bridged adapter is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)
 
-Internal Network
+<h3>Internal Network</h3>
 This network provides your VMs with connectivity but no external access. Use this when you want to create an isolated IT lab.
 Using an Internal Network is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)
 
-Host-only Adapter
+<h3>Host-only Adapter</h3>
 This is essentially the same as an internal network, except that your host computer will have a direct IP connection to the VM. Meaning you can RDP, SSH or ping the VMs from the host computer. Use this network type when you will need direct access to the VMs from your host computer. It is commonly used for test web servers (think copying files from the host computer to the VM web server, or directly editing the code on the web server VM from your host computer.
  
 You can create a host-only network by select File > Host Network Manager
