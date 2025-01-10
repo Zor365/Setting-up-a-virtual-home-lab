@@ -117,7 +117,7 @@ This is essentially the same as an internal network, except that your host compu
  
 You can create a host-only network by select File > Host Network Manager
 
-<img src="Host-Only-Network-Adapters">
+<img src="Folder/Host-Only-Network-Adapters.jpg">
 
 
 <h2>Generic Driver</h2>
