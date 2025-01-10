@@ -117,8 +117,10 @@ This is essentially the same as an internal network, except that your host compu
  
 You can create a host-only network by select File > Host Network Manager
 
+<img src="Host-Only-Network-Adapters">
 
-Generic Driver
+
+<h2>Generic Driver</h2>
 Oracles documentation for the generic driver states:
 The generic driver attachment is special and cannot be considered as an alternative to other attachment types.
 
@@ -128,9 +130,13 @@ First I will select File > Preferences, then navigate to the Network tab. Next I
 
 This will create a new NAT Network. If I want to modify the subnet, disable DHCP or support IPv6 I can do this by double-clicking the NAT Network.
 
+<img src="NAT-Network-2">
+
 
 I am going to leave all of these options at default... so I am done creating the Virtual Network!
 Configure the Networking tab for your chosen network type. Again, the easiest solution is to create and use a NAT Network.
+
+<img src="NAT-Network-2">
 
 
 
@@ -139,11 +145,11 @@ Next we need an operating system (OS) to install on our Virtual Machines. You co
  
 The easiest way to find what you're looking for is to simply google the name of your operating system with "ISO download" in the search.  For example if you want Windows Server 2016, just search 
 
-"Windows Server 2016 ISO Download".
+<a href="#">"Windows Server 2016 ISO Download".</a>
 You should ONLY download ISOs from official websites. This means you shouldn't download Windows Server from a website like "sneakyfreecdkeys.com"...
 
 I will still provide links to the most common operating systems that people want to install below. Keep in mind if the link is dead you can just run a quick google search and easily find the download.
-Windows Server 2016
+<a href="#">Windows Server 2016</a>
 Windows 10 (requires a valid Windows 10 license to download)
 Centos 7
 Ubuntu
@@ -154,9 +160,13 @@ Once you have downloaded your ISO file, it's time to mount it to your VM in Virt
  
 Right click on your VM and select settings then open the Storage tab. From there click the Empty disc icon, then again the disc icon under Attributes on the right hand side of the window. Click the Choose Virtual Optical Disk File... and browse to and open your desired ISO.
 
+<img src="Attach-an-ISO">
+
 
 Click OK and now when we launch the VM you will be able to begin your OS installation.
 I mounted a Windows Server 2016 ISO so when I launch the VM I will see the installation screen for this OS.
+
+<img src="Windows-Server-2016-Install-2">
 
 Now you can run through your OS installation and complete your lab setup.
 Wrapping it Up...
