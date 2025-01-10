@@ -150,10 +150,10 @@ You should ONLY download ISOs from official websites. This means you shouldn't d
 
 I will still provide links to the most common operating systems that people want to install below. Keep in mind if the link is dead you can just run a quick google search and easily find the download.
 <a href="#">Windows Server 2016</a>
-Windows 10 (requires a valid Windows 10 license to download)
-Centos 7
-Ubuntu
-Kali Linux
+<a href="#">Windows 10 (requires a valid Windows 10 license to download)</a>
+<a href="#">Centos 7</a>
+<a href="#">Ubuntu</a>
+<a href="#">Kali Linux</a>
 
 <h2>Installing an OS on Your Lab VMs</h2>
 Once you have downloaded your ISO file, it's time to mount it to your VM in VirtualBox. Mounting a VM is essentially like virtually inserting a disc into a DVD drive of a computer.
@@ -166,7 +166,7 @@ Right click on your VM and select settings then open the Storage tab. From there
 Click OK and now when we launch the VM you will be able to begin your OS installation.
 I mounted a Windows Server 2016 ISO so when I launch the VM I will see the installation screen for this OS.
 
-<img src="Windows-Server-2016-Install-2">
+<img src="Folder/Windows-Server-2016-Install-2.jpg">
 
 Now you can run through your OS installation and complete your lab setup.
 Wrapping it Up...
