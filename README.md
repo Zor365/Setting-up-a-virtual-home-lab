@@ -45,6 +45,8 @@ Download Oracle VM VirtualBox by <a href="#">clicking here</a>. Once the downloa
 
 I Proceeded through the installation using all of the default options. Any prompts that are a yes/no you need to select "yes'.
 
+<img src="">
+
 Click Finish and launch VirtualBox.
 
 <h2>Creating a Virtual Machine</h2>
