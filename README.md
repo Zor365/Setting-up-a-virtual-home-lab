@@ -45,9 +45,11 @@ Download Oracle VM VirtualBox by <a href="#">clicking here</a>. Once the downloa
 
 I Proceeded through the installation using all of the default options. Any prompts that are a yes/no you need to select "yes'.
 
-<img src="">
+<img src="Folder/VirtualBox-Complete.jpg">
 
 Click Finish and launch VirtualBox.
+
+<img src="">
 
 <h2>Creating a Virtual Machine</h2>
 Now that we know what type of virtual network we want to use it's time to create a VM (Virtual Machine). We can do this by clicking the New button within the VirtualBox Manager.
